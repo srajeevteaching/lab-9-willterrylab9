@@ -7,7 +7,6 @@ def read_file(filename):
     return data_list
 def fixlast(l):
     for x in l:
-        # print(x[3])
         x[-1] = x[-1].strip()
     return l
 def addprofit(l):
